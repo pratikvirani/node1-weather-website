@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    color: rgb(95, 110, 144);
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+
+}
+footer {
+    color: rgb(17, 73, 73);
+    border-top: 1px solid #d6d6d6;
+    margin-top: 16px;
+    padding: 16px;  
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px; 
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: rgb(98, 166, 245);
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.hanuman {
+    width: 230px;
+    height: 370px;
+
+}
+
+input {
+    border: 2px solid #888888;
+    padding: 8px;
+    
+}
+
+
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
